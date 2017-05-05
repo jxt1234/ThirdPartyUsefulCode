@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FixedFuncShader	HermiteCurveMain.cpp	/^	FixedFuncShader,$/;"	e	enum:eShader	file:
+GLEW_STATIC	HermiteCurveMain.cpp	20;"	d	file:
+GLEW_STATIC	LoadShaders.cpp	10;"	d	file:
+HermiteCurveShader	HermiteCurveMain.cpp	/^	HermiteCurveShader,$/;"	e	enum:eShader	file:
+LoadShaders	LoadShaders.cpp	/^LoadShaders( ShaderInfo* shaders )$/;"	f
+ReadShader	LoadShaders.cpp	/^ReadShader( const char* filename )$/;"	f	file:
+ShaderCount	HermiteCurveMain.cpp	/^	ShaderCount$/;"	e	enum:eShader	file:
+ShaderInfo	LoadShaders.h	/^} ShaderInfo;$/;"	t	typeref:struct:__anon1
+VAOCount	HermiteCurveMain.cpp	/^	VAOCount$/;"	e	enum:eVertexArrayObject	file:
+VAOCtrlPts	HermiteCurveMain.cpp	/^	VAOCtrlPts,	$/;"	e	enum:eVertexArrayObject	file:
+VBOCount	HermiteCurveMain.cpp	/^	VBOCount$/;"	e	enum:eVertexBufferObject	file:
+VBOCtrlPts	HermiteCurveMain.cpp	/^	VBOCtrlPts,	$/;"	e	enum:eVertexBufferObject	file:
+WORLD_SIZE	HermiteCurveMain.cpp	/^const double WORLD_SIZE = 4.;$/;"	v
+__LOAD_SHADERS_H__	LoadShaders.h	8;"	d
+cbDisplay	HermiteCurveMain.cpp	/^void cbDisplay()$/;"	f
+cbKey	HermiteCurveMain.cpp	/^void cbKey(unsigned char c, int w, int h )$/;"	f
+cbReshape	HermiteCurveMain.cpp	/^void cbReshape(int w, int h)$/;"	f
+control_pt	HermiteCurveMain.cpp	/^GLfloat control_pt[][3] =$/;"	v
+drawHermiteCurve	HermiteCurveMain.cpp	/^void drawHermiteCurve()$/;"	f
+eShader	HermiteCurveMain.cpp	/^enum eShader$/;"	g	file:
+eVertexArrayObject	HermiteCurveMain.cpp	/^enum eVertexArrayObject$/;"	g	file:
+eVertexBufferObject	HermiteCurveMain.cpp	/^enum eVertexBufferObject$/;"	g	file:
+filename	LoadShaders.h	/^    const char*  filename;$/;"	m	struct:__anon1
+glsl	HermiteCurveMain.cpp	/^GLuint glsl[ShaderCount];$/;"	v
+initFixedFuncShader	HermiteCurveMain.cpp	/^void initFixedFuncShader()$/;"	f
+initGL	HermiteCurveMain.cpp	/^void initGL()$/;"	f
+initHermiteCurveShader	HermiteCurveMain.cpp	/^void initHermiteCurveShader()$/;"	f
+main	HermiteCurveMain.cpp	/^int main(int argc, char* argv[])$/;"	f
+matP	HermiteCurveMain.cpp	/^mat4	matP;$/;"	v
+shader	LoadShaders.h	/^    GLuint       shader;$/;"	m	struct:__anon1
+tangent_vector	HermiteCurveMain.cpp	/^GLfloat tangent_vector[][3] =$/;"	v
+type	LoadShaders.h	/^    GLenum       type;$/;"	m	struct:__anon1
+vao	HermiteCurveMain.cpp	/^GLuint vao[VAOCount];$/;"	v
+vbo	HermiteCurveMain.cpp	/^GLuint vbo[VBOCount];$/;"	v
